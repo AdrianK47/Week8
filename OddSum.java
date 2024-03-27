@@ -12,7 +12,6 @@ public class OddSum {
         for (int i = 1; i <= number; i++){
             if (i % 2 == 1){
                 sum += i;
-                System.out.println(sum);
             }
         }
         System.out.println("The sum of the odd numbers within 1 to " + number + " is: " + sum);
