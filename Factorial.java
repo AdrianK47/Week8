@@ -9,7 +9,7 @@ public class Factorial {
         System.out.print("Enter a number: ");
         number = input.nextInt();
 
-        for (int i = 1; i < number; i++){
+        for (int i = 1; i <= number; i++){
             factorial *= i;
         }
         System.out.println("This is the factorial from 1 to " + number + " : " + factorial);
